@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Pacifico&display=swap");
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #f8f8f8;
+  color: #333333;
+  margin: 0;
+}
+/* Website Links except the nav */
+
+a:link {
+  color: #b300b3;
+}
+a:visited {
+  color: #1f3a93;
+}
+a:hover {
+  color: #99bbff;
+}
+a:active {
+  color: #333333;
+}
+/* Header */
+
+header {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.name-header {
+  background-color: white;
+  padding: 10px 0;
+  border-top: 4px solid #3286c6;
+  text-align: center;
+}
+
+/* Tanisha Williams */
+.name-heading {
+  font-family: "Pacifico", cursive;
+  font-size: 4em;
+  color: #2777be;
+  margin: 0;
+  text-shadow: 2px 2px 4px black;
+}
+/* Logo */
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+/* Navigation */
+
+nav {
+  background-color: #2777be;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 5px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  padding: 5px;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+nav a:link {
+  color: #f8f8f8;
+}
+nav a:visited {
+  color: #f8f8f8;
+}
+nav a:hover {
+  color: #f2e4c6;
+}
+nav a:active {
+  color: #333333;
+}
+/* Hero Image */
+
+.home-hero {
+  background: url(images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+/* welcome to my portfolio */
+.home-hero h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px black;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Main */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.about-me-photo {
+  float: center;
+  max-width: 90%;
+  height: auto;
+  margin: 50px 0 10px 20px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 8px;
+  border: 5px solid #d4b8e0;
+}
+
+/* Embedded Video */
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: "";
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* only for Resume text */
+.resume {
+  font-size: 2em;
+  font-weight: bold;
+  color: #2777be;
+  text-align: left;
+  padding: 12px 25px;
+  display: block;
+  max-width: 100%;
+  min-width: 800px;
+  margin: 20px auto;
+  margin-top: 20px;
+  border-bottom: 2px solid #2777be;
+}
+
+/* resume page */
+.resume-paper {
+  max-width: 700px;
+  padding: 40px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-paper h1 {
+  min-width: 0;
+  padding: 0;
+}
+
+.resume-paper h2 {
+  min-width: 0;
+  margin: 20px 0;
+  padding: 12px 0;
+}
+
+.resume-paper h3 {
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2777be; /* this is for the text */
+  text-align: left;
+  padding: 12px 25px;
+  display: block;
+  max-width: 100%;
+  min-width: 800px;
+  margin: 20px auto;
+  margin-top: 20px;
+  border-bottom: 2px solid #2777be;
+}
+
+/* Footer */
+.footer-top {
+  background: url(images/hero.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  border-top: 4px solid #3286c6;
+}
+
+.footer-bottom {
+  background-color: #2777be;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+footer .fa {
+  font-size: 1.2em;
+  color: #white;
+  margin-right: 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: white;
+}
+
+/* Flappy Bird Game Style */
+canvas {
+  border: 6px solid #d4b8e0;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 8px;
+  background: url(images/quidditch.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  display: block;
+}
+.game-controls {
+  text-align: center;
+  margin-top: 10px;
+}
+.myButton {
+  font-size: 1.5;
+  padding: 15px 30px;
+  background-color: #2777be;
+  color: white;
+  box-shadow: 2px 2px 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 10px 10px;
+}
+
+/* JavaScript Game changes for mobile */
+.mobile {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    touch-action: manipulation;
+  }
+}
+
+/* portfolio page main */
+
+/* portfolio page gallery */
+.gallery .preview img#preview {
+  padding: 4px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 8px solid white;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-thumbnails img {
+  width: 100px;
+  height: 75px;
+  margin: 4px;
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-thumbnails img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1 {
+  font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}

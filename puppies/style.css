@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #f8f8f8;
+  color: #333333;
+  margin: 0;
+}
+
+
+
+/* Website Links except the nav */
+a:link {
+  color: #F8F8F8;
+}
+a:visited {
+  color: #5E6A7D;
+}
+a:hover {
+  color: #FF6F61;
+}
+a:active {
+  color: #333333;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+header h1 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation */
+nav {
+  background-color: #1f3a93;
+  border-top: 3px solid #007aad;
+  border-bottom: 3px solid #007aad;
+  padding: 5px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  padding: 5px;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:link {
+  color: #f8f8f8;
+}
+nav a:visited {
+  color: #f8f8f8;
+}
+nav a:hover {
+  color: #FF6F61;
+}
+nav a:active {
+  color: #333333;
+}
+
+/* Main */
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+main h2{
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.home-hero{
+  background-image:url(images/header.jpg);
+  height: 475px;
+  background-size:cover;
+  background-position: center;
+  color: #5E6A7D;
+  padding: 10px 10px 10px 30px;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+}
+.img-fluid{
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  border: 2px solid #333333;
+}
+blockquote{
+  background-color: #eeeeee;
+  border-top: 2px solid #333333;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 5px solid #007AAD; ;
+  padding: 30px;
+  margin-bottom: 2rem;
+}
+blockquote a:link {
+  color: #333333; 
+}
+/*center images on mobile*/
+img{
+  display:block;
+  margin: 0 auto;
+}
+
+/* Footer */
+.fa {
+  font-size: 1em;
+  color:#FF6F61;
+}
+footer {
+  border-top: #007aad 3px solid;
+  text-align: center;
+  background-color: #1f3a93;
+  color: #F8F8F8;
+}
+.footer-content{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1 {
+  font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+

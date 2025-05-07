@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <meta name="description" content="The resume of Tanisha Williams — digital designer and student at Saint Paul College, highlighting experience and coursework in web development, 3D graphics, and Adobe Creative Suite" />
+  <title>Tanisha Williams Portfolio :: Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+
+<body>
+  <header class="name-header">
+    <img src="images/logo.png" alt="tanisha williams logo" class="logo" />
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="game.html">Game</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Portfolio</h2>
+    <p>This portfolio showcases some of the design and development projects I’ve completed during my studies at Saint Paul College. Each piece highlights different skills—from Photoshop composites and logo creation to web design and blog styling. Click any image to learn more about the tools and techniques used.
+    </p>
+
+    <!-- this is the gallery -->
+    <div class="row">
+      <div class="col-sm-12">
+
+        <div class="gallery">
+          <!-- main image here -->
+          <div class="preview">
+            <a href="animals/index.html" target="_blank">
+              <img id="preview" src="images/animals.png" alt="HTML project: animal photography website" width="800" height="600">
+            </a>
+          </div>
+
+          <!-- thumbnail gallery -->
+          <div class="gallery-thumbnails text-center">
+            <a href="puppies/index.html" target="_blank">
+              <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/puppies.png" alt="HTML project: best in show puppies website"></a>
+            <img onclick="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="images/williamsselectivecolor.jpg" alt="photoshop project: yellow flower with grayscale background">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img3').src" id="img3" src="images/williamssoftlight2.jpg" alt="photoshop project: black and white image of girl with peterson 3 in red on jersey">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img4').src" id="img4" src="images/williamsmergerproject2.png" alt="photoshop project: merged image of girl walking">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img5').src" id="img5" src="images/vector.png" alt="photoshop vector illustration">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img6').src" id="img6" src="images/lettery.png" alt="photoshop project: girl in yellow sweater with large yellow Y">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img7').src" id="img7" src="images/drippingeffect.png" alt="photoshop project: girl in yellow sweater with dripping effect">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img8').src" id="img8" src="images/costarica1.png" alt="adobe express project: costa rica tri-fold brochure in shades of green ">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img9').src" id="img9" src="images/costarica2.png" alt="adobe express project: costa rica tri-fold brochure in shades of orange ">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img10').src" id="img10" src="images/donut.png" alt="blender 4.0 project: 3D rendered stack of donuts on a plate">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img11').src" id="img11" src="images/pumpkin.png" alt="blender 4.0 project: 3D rendered jack o latern">
+            <img onclick="document.getElementById('preview').src=document.getElementById('img12').src" id="img12" src="images/mixbrush1.png" alt="photoshop project: mixbrush painting image of toddler in white dress with pink sweater">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row py-4 footer-top">
+        <div class="col-sm-6">
+          <h5>About This Site</h5>
+          <p>
+            This portfolio showcases my creative work in web design, 3D rendering, and digital art.
+            Built with HTML, CSS, JavaScript, and Bootstrap as part of my coursework at <a href="https://www.saintpaul.edu/" target="blank">Saint Paul College.</a>
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <h5>Connect with Me</h5>
+          <p><i class="fa fa-instagram"></i><a href="https://www.instagram.com/tanishas.digital.portfolio/" target="_blank">Instagram</a></p>
+          <p><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/tanisha-williams-97a414207" target="_blank"> LinkedIn</a></p>
+          <p><i class="fa fa-envelope"></i><a href="mailto:williamtanishal@gmail.com"> Email Me</a></p>
+        </div>
+      </div>
+      <div class="row text-center py-2 footer-bottom">
+        <div class="col-sm-12">
+          <small>&copy; 2025 Tanisha Williams. All rights reserved.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--jQuery, Popper, and Bootstrap Javascript files-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

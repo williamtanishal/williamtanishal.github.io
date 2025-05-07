@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e4e4e4;
+  color: #333333;
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Yellowtail", cursive;
+  color: #2e4a3d;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* Website Links except the nav */
+a:link {
+  color: #b300b3;
+}
+a:visited {
+  color: #1f3a93;
+}
+a:hover {
+  color: #99bbff;
+}
+a:active {
+  color: #333333;
+}
+
+/* Header */
+header {
+  background-color: #2e4a3d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  color: white;
+  font-size: 3.5em;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Navigation */
+nav {
+  background-color: #4F6D5E;
+  border-top: 3px solid #c1a98b;
+  border-bottom: 3px solid #c1a98b;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  padding: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav a:link {
+  color: #f8f8f8;
+}
+nav a:visited {
+  color: #f8f8f8;
+}
+nav a:hover {
+  color: #f4a261;
+}
+nav a:active {
+  color: #333333;
+}
+
+/* Main */
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.hero-image {
+  border: 10px solid #728C69;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+.icon-text-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.icon-text-row .fa {
+  color: #f4a261;
+}
+
+
+
+.gallery .preview img#preview {
+  padding: 4px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 8px solid white;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-thumbnails img {
+  width: 100px;
+  height: 75px;
+  margin: 4px;
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-thumbnails img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+/* Footer */
+footer .fa {
+  font-size: 1.2em;
+  color: #f4a261;
+}
+footer {
+  border-top: #c1a98b 3px solid;
+  text-align: center;
+}
+
+.footer-top {
+  background-color: #2e4a3d;
+  color: white;
+  padding: 20px;
+}
+
+.footer-bottom {
+  background-color: #1c1c1c;
+  color: #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1 {
+  font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
